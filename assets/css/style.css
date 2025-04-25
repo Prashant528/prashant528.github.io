@@ -726,7 +726,9 @@ main {
  * #clients 
  */
 
-.clients { margin-bottom: 15px; }
+.clients { 
+  margin-bottom: 15px; 
+}
 
 .clients-list {
   display: flex;
@@ -741,6 +743,7 @@ main {
   overscroll-behavior-inline: contain;
   scroll-snap-type: inline mandatory;
   scroll-padding-inline: 25px;
+  background-color: #f6d8a8;
 }
 
 .clients-item {
@@ -1339,7 +1342,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .avatar-box { border-radius: 30px; }
 
-  .avatar-box img { width: 120px; }
+  .avatar-box img { width: 120px; border-radius: 20px; }
 
   .info-content .name { margin-bottom: 15px; }
 

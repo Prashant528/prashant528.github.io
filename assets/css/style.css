@@ -1891,3 +1891,9 @@ textarea.form-input::-webkit-resizer { display: none; }
   padding-left: 10px;
   text-indent: -10px;
 }
+
+.tech_stack_headers{
+  width: 145px; 
+  font-weight: bold;
+  color: #e2c36f;
+}

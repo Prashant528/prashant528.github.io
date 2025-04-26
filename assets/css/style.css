@@ -119,6 +119,7 @@
   #RESET
 \*-----------------------------------*/
 
+
 *, *::before, *::after {
   margin: 0;
   padding: 0;
@@ -1342,7 +1343,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .avatar-box { border-radius: 30px; }
 
-  .avatar-box img { width: 120px; border-radius: 20px; }
+  .avatar-box img { width: 120px; border-radius: 30px; }
 
   .info-content .name { margin-bottom: 15px; }
 
@@ -1882,4 +1883,11 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .timeline-text { max-width: 700px; }
 
+}
+
+
+.list_of_things{
+  color: aliceblue;
+  padding-left: 10px;
+  text-indent: -10px;
 }
